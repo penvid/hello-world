@@ -21,21 +21,7 @@
     <module>webapp</module>
   </modules>
 
-  <distributionManagement>
-   
   
-    <repository>
-             <id>deployment</id>
-             <name>Internal Releases</name>
-             <url>http://3.15.214.50:8081/repository/FORMAC/</url>
-       </repository> 
-           <snapshotRepository>
-             <id>deployment</id>
-             <name>Internal Snapshot Releases</name>
-             <url>http://3.15.214.50:8081/repository/FORMAC-SANP/</url>
-       </snapshotrepository>        
-           
-  </distributionManagement>
 
   <build>
     <plugins>
@@ -224,5 +210,19 @@
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
+         
+  <distributionManagement>
+     <repository>
+             <id>deployment</id>
+             <name>Internal Releases</name>
+             <url>http://3.15.214.50:8081/repository/FORMAC/</url>
+      </repository> 
+       <snapshotRepository>
+             <id>deployment</id>
+             <name>Internal Snapshot Releases</name>
+             <url>http://3.15.214.50:8081/repository/FORMAC-SANP/</url>
+       </snapshotrepository>        
+           
+  </distributionManagement>       
 
 </project>
