@@ -22,11 +22,8 @@
   </modules>
 
   <distributionManagement>
-    <site>
-      <id>site-server</id>
-      <name>Test Project Site</name>
-      <url>file:///tmp/maven-project-site</url>
-    </site>
+   
+  
     <repository>
              <id>deployment</id>
              <name>Internal Releases</name>
